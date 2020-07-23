@@ -1,0 +1,368 @@
+@font-face {
+  font-family: 'IskraCYR';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../src/font/IskraCYR-Light.otf");
+}
+
+@font-face {
+  font-family: 'IskraCYR';
+  font-style: italic;
+  font-weight: 300;
+  src: url("../src/font/IskraCYR-LightItalic.otf");
+}
+
+@font-face {
+  font-family: 'IskraCYR';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../src/font/IskraCYR-Regular.otf");
+}
+
+@font-face {
+  font-family: 'IskraCYR';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../src/font/IskraCYR-Bold.otf");
+}
+
+@font-face {
+  font-family: 'IskraCYR';
+  font-style: italic;
+  font-weight: 700;
+  src: url("../src/font/IskraCYR-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: 'IskraCYR';
+  font-style: normal;
+  font-weight: 800;
+  src: url("../src/font/IskraCYR-UltraBold.otf");
+}
+
+body {
+  font-family: 'IskraCYR';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2b2a29;
+}
+
+header {
+  padding-top: 26px;
+}
+
+.logo {
+  width: 97px;
+  height: 100px;
+}
+
+.location {
+  font-weight: 300;
+  font-style: italic;
+  color: #696969;
+  margin: 17px 0 0 40px;
+}
+
+.location .location_sity {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2b2a29;
+}
+
+.location a {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: underline;
+  color: #f58745;
+}
+
+.social {
+  text-align: right;
+}
+
+.social > a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/social.png");
+  margin-right: 13px;
+}
+
+.social > a:nth-of-type(2) {
+  background-position-x: -33px;
+}
+
+.social > a:nth-of-type(3) {
+  background-position-x: -65px;
+}
+
+.social > a:nth-of-type(4) {
+  background-position-x: -96px;
+}
+
+.social span a {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  color: #2b2a29;
+  text-decoration: none;
+}
+
+.nav ul li {
+  float: left;
+  font-size: 22px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #2b2a29;
+  margin-left: 30px;
+}
+
+.nav ul li:hover {
+  color: #f58745;
+}
+
+.main-offer_bg {
+  background-image: url("../img/main_offer.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+.main-offer {
+  padding: 133px 0 161px;
+}
+
+.main-offer_title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #2b2a29;
+}
+
+.main-offer_title_massage {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f58745;
+}
+
+.main-offer_title_massage_sity {
+  font-size: 48px;
+}
+
+ul.main-offer_pluses li {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+ul.main-offer_pluses li::before {
+  content: '+';
+  margin-right: 5px;
+  color: #f58745;
+  font-size: 30px;
+}
+
+.purchase_service-button {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  text-decoration: none;
+  background-image: url("../img/button_bg.png");
+  background-repeat: no-repeat;
+  padding: 30px 45px;
+  margin-top: 30px;
+}
+
+.main-offer_fact {
+  float: right;
+  max-width: 220px;
+  margin-right: 30px;
+}
+
+.main-offer_fact_title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: italic;
+  color: #000000;
+}
+
+.main-offer_fact_text {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #696969;
+  font-style: italic;
+}
+
+.main-description_bg {
+  background-image: url("../img/shanel.png");
+  max-width: 1480px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.main-description {
+  padding: 74px 0 130px;
+}
+
+.main-description_quote {
+  float: right;
+  max-width: 255px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 300;
+  font-style: italic;
+  color: #696969;
+  margin: 93px 32px 0 0;
+}
+
+.main-description_quote p {
+  padding-left: 30px;
+}
+
+.main-description_quote .main-description_quote_author {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+}
+
+.text-black {
+  color: #000;
+}
+
+.quote_mark {
+  background-image: url("../img/quote_mark.png");
+  width: 30px;
+  height: 24px;
+}
+
+.quote_mark_2 {
+  background-position-x: -38px;
+  float: right;
+}
+
+.main-block_title {
+  font-size: 48px;
+  line-height: 50px;
+  font-weight: 700;
+  color: #f58745;
+  margin-bottom: 54px;
+}
+
+.main-description_block_text {
+  margin-top: 40px;
+}
+
+.main-description_block_text b {
+  font-weight: 700;
+  color: #000000;
+}
+
+.purchase_service-button-small {
+  background-image: url("../img/button_small_bg.png");
+  padding: 30px 55px;
+}
+
+.main-result_bg {
+  background-image: url("../img/main_result.jpg");
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+
+.main-result {
+  padding: 157px 0 120px;
+}
+
+.main-result h2 {
+  text-align: center;
+}
+
+.main-block_title-black {
+  font-weight: 400;
+  color: #2b2a29;
+}
+
+.main-result_img {
+  text-align: center;
+  padding-top: 350px;
+}
+
+.main-result_list li {
+  padding-left: 60px;
+  margin-bottom: 25px;
+}
+
+.main-result_list .num {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #f58745;
+  margin-left: -45px;
+  position: absolute;
+}
+
+.main-advantages {
+  padding: 86px 0 50px;
+  text-align: center;
+}
+
+.main-advantages h2 {
+  text-align: center;
+}
+
+.main-advantages_top_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-advantages_top_list div {
+  max-width: 360px;
+  width: 100%;
+  height: 360px;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-advantages_top_list div .main-advantages_top_item_icon {
+  display: inline-block;
+  width: 107px;
+  height: 107px;
+  background-image: url("../img/advantages_icons.png");
+  margin-top: -5px;
+}
+
+.main-advantages_top_list div .main-advantages_top_item_text {
+  margin-top: 25px;
+}
+
+.main-advantages_top_list div:nth-child(1) {
+  background-image: url("../img/advantages_circle_1.png");
+}
+
+.main-advantages_top_list div:nth-child(2) {
+  background-image: url("../img/advantages_circle_2.png");
+}
+
+.main-advantages_top_list div:nth-child(2) .main-advantages_top_item_icon {
+  background-position-x: -125px;
+}
+
+.main-advantages_top_list div:nth-child(3) {
+  background-image: url("../img/advantages_circle_3.png");
+}
+
+.main-advantages_top_list div:nth-child(3) .main-advantages_top_item_icon {
+  background-position-x: -250px;
+}
+/*# sourceMappingURL=style.css.map */

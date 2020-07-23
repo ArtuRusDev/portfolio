@@ -5,8 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Bootstrap Grid CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="src/font/IskraCYR-UltraBold.otf">
 
     <title>Sandara</title>
 </head>
@@ -15,178 +22,204 @@
     <header>
         <div class="row">
             <div class="col-md-1">
-                <img src="" alt="logo" class="logo">
+                <img src="img/logo.png" alt="logo" class="logo">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="location">
                     <p>
-                        Студия массажа лица<span class="location_sity">
-                        Улан-Удэ</span>
+                        Студия массажа лица <br>
+                        <img src="img/location.svg" alt="location">
+                        <span class="location_sity">Улан-Удэ</span>
                         <a href="#">На карте</a>
                     </p>
                 </div>
             </div>
-            <div class="col-md-7 offset-md-2">
+            <div class="col-md-8">
                 <div class="social">
-                    <a href="#"><img src="" alt="instagram"></a>
-                    <a href="#"><img src="" alt="whatsapp"></a>
-                    <a href="#"><img src="" alt="viber"></a>
-                    <a href="#"><img src="" alt="telegram"></a>
-                    <a href="tel:+79085903287" class="tel">+79085903287</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <span><a href="tel:+79085903287" class="tel">+79085903287</a></span>
                 </div>
                 <div class="nav">
                     <ul>
-                        <li class="nav_item">Массаж</li>
-                        <li class="nav_item">Результат</li>
-                        <li class="nav_item nav_item-active">Преимущества</li>
-                        <li class="nav_item">Цены</li>
-                        <li class="nav_item">Об авторе</li>
-                        <li class="nav_item">Отзывы</li>
+                        <a href="#"><li class="nav_item">Массаж</li></a>
+                        <a href="#"><li class="nav_item">Результат</li></a>
+                        <a href="#"><li class="nav_item nav_item-active">Преимущества</li></a>
+                        <a href="#"><li class="nav_item">Цены</li></a>
+                        <a href="#"><li class="nav_item">Об авторе</li></a>
+                        <a href="#"><li class="nav_item">Отзывы</li></a>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
+</div>
+
     <main>
         <div class="main-offer_bg">
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="main-offer">
-                        <h1 class="main-offer_title">
-                            СКУЛЬПТУРНО-ГЛУБОКОТКАННЫЙ (БУККАЛЬНЫЙ)
-                            <span class="main-offer_title_massage">МАССАЖ ЛИЦА</span>
-                            <span class="main-offer_title_massage_sity">В УЛАН УДЭ</span>
-                        </h1>
-                        <ul class="main-offer_pluses">
-                            <li class="main-offer_pluses_item">Подтяжка лица без хирургии</li>
-                            <li class="main-offer_pluses_item">Омоложение кожи без инъекций</li>
-                            <li class="main-offer_pluses_item">Видимый результат уже после второго сеанса</li>
-                            <li class="main-offer_pluses_item">Бесплатная диагностика и консультация</li>
-                        </ul>
-                        <a href="#" class="purchase_service-button">Записаться на массаж</a>
-                        <div class="main-offer_fact">
-                            <h2 class="main-offer_fact_title">А знали ли Вы, что...</h2>
-                            <p class="main-offer_fact_text">
-                                Проведение одного часа
-                                массажа лица заменяет
-                                7-8 часов сна!
-                            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="main-offer">
+                            <h1 class="main-offer_title">
+                                СКУЛЬПТУРНО-ГЛУБОКОТКАННЫЙ (БУККАЛЬНЫЙ)
+                                <span class="main-offer_title_massage">МАССАЖ ЛИЦА</span>
+                                <span class="main-offer_title_massage_sity">В УЛАН УДЭ</span>
+                            </h1>
+                            <ul class="main-offer_pluses">
+                                <li class="main-offer_pluses_item">Подтяжка лица без хирургии</li>
+                                <li class="main-offer_pluses_item">Омоложение кожи без инъекций</li>
+                                <li class="main-offer_pluses_item">Видимый результат уже после второго сеанса</li>
+                                <li class="main-offer_pluses_item">Бесплатная диагностика и консультация</li>
+                            </ul>
+                            <a href="#" class="purchase_service-button">Записаться на массаж</a>
+                            <div class="main-offer_fact">
+                                <h2 class="main-offer_fact_title">А знали ли Вы, что...</h2>
+                                <p class="main-offer_fact_text">
+                                    Проведение одного часа
+                                    массажа лица заменяет <br>
+                                    7-8 часов сна!
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-description">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="main-description_quote">
-                        <p>
-                            <span class="text-black">В 20 лет</span> у вас лицо,
-                            которое дала вам природа;
-                            <span class="text-black">в 30 лет</span> у вас лицо,
-                            которое вылепила вам жизнь;
-                            <span class="text-black">а в 50</span> у вас лицо,
-                            которого вы заслуживаете.
-                            <span class="main-description_quote_author">(с) Коко Шанель</span>
-                        </p>
+        <div class="main-description_bg">
+            <div class="container">
+                <div class="main-description">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="main-description_quote">
+                            <div class="quote_mark"></div>
+                            <p>
+                                <span class="text-black">В 20 лет</span> у вас лицо,<br>
+                                которое дала вам природа; <br>
+                                <span class="text-black">в 30 лет</span> у вас лицо,<br>
+                                которое вылепила вам жизнь; <br>
+                                <span class="text-black">а в 50</span> у вас лицо,<br>
+                                которого вы заслуживаете. <br>
+                                <span class="main-description_quote_author">(с) Коко Шанель</span>
+                            </p>
+                            <div class="quote_mark quote_mark_2"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="main-description_block">
-                        <h2 class="main-block_title">Какой это массаж?</h2>
-                        <p class="main-description_block_text">
-                            <b>Скульптурно-буккальный массаж лица</b> - это наиболее безопасная и действенная методика
-                            омоложения. Комплекс массажных техник и остеопатических приемов включает проработку
-                            воротниковой зоны, затылка, шеи, ушей, спины, грудной клетки и, непосредственно, лицо.
-                        </p>
-                        <p class="main-description_block_text">
-                            Массирование осуществляется руками, без использования аппаратов. Комплекс выполняется по
-                            авторской методике с учетом индивидуальных особенностей анатомии каждого человека.
-                        </p>
-                        <a href="#" class="purchase_service-button">Хочу на массаж!</a>
+                    <div class="col-md-6">
+                        <div class="main-description_block">
+                            <h2 class="main-block_title">Какой это массаж?</h2>
+                            <p class="main-description_block_text">
+                                <b>Скульптурно-буккальный массаж лица</b> - это наиболее безопасная и действенная методика
+                                омоложения. Комплекс массажных техник и остеопатических приемов включает проработку
+                                воротниковой зоны, затылка, шеи, ушей, спины, грудной клетки и, непосредственно, лицо.
+                            </p>
+                            <p class="main-description_block_text">
+                                Массирование осуществляется руками, без использования аппаратов. Комплекс выполняется по
+                                авторской методике с учетом индивидуальных особенностей анатомии каждого человека.
+                            </p>
+                            <a href="#" class="purchase_service-button purchase_service-button-small">Хочу на массаж!</a>
+                        </div>
                     </div>
                 </div>
             </div>
+            </div>
         </div>
+        
+        
         <div class="main-result_bg">
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="main-block_title">Что Вы получаете <span
-                            class="main-block_title-black">в результате?</span></h2>
+            <div class="container">
+                <div class="main-result">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="main-block_title">
+                                Что Вы получаете <br>
+                                <span class="main-block_title-black">в результате?</span>
+                            </h2>
+                        </div>
+                        <div class="col-md-4">
+                            <ol class="main-result_list">
+                                <li><span class="num">01</span>Стимуляция оттока лимфы,
+                                    ускорение обменных процессов,
+                                    снятие отечности, насыщение
+                                    тканей кожи кислородом.
+                                </li>
+                                <li><span class="num">02</span>Улучшение цвета лица.</li>
+                                <li><span class="num">03</span>Повышение тургора и замедление
+                                    процессов увядания кожи.
+                                </li>
+                                <li><span class="num">04</span>Разглаживание носогубных складок,
+                                    избавление от заломов “марионеток”
+                                    и второго подбородка.
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="main-result_img">
+                                <a href="#" class="purchase_service-button purchase_service-button-small">Хочу на массаж!</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <ol class="main-result_list">
+                                <li><span class="num">05</span>Укрепление мышечного каркаса
+                                    лица - за счет чего наблюдается
+                                    потрясающий эффект лифтинга,
+                                    исчезают отеки и мешки под
+                                    глазами, подтягивается овал лица.
+                                </li>
+                                <li><span class="num">05</span>Разглаживание мелких морщин,
+                                    избавление от брылей.
+                                </li>
+                                <li><span class="num">06</span>Благоприятное воздействие на
+                                    состояние всего организма.
+                                </li>
+                                <li><span class="num">07</span>Улучшение общего самочувствия
+                                    и настроения.
+                                </li>
+                            </ol>
+                        </div>
+                        </div>
                 </div>
-                <div class="col-md-4">
-                    <ol class="main-result_list">
-                        <li>Стимуляция оттока лимфы,
-                            ускорение обменных процессов,
-                            снятие отечности, насыщение
-                            тканей кожи кислородом.
-                        </li>
-                        <li>Улучшение цвета лица.</li>
-                        <li>Повышение тургора и замедление
-                            процессов увядания кожи.
-                        </li>
-                        <li>Разглаживание носогубных складок,
-                            избавление от заломов “марионеток”
-                            и второго подбородка.
-                        </li>
-                    </ol>
-                </div>
-                <div class="col-md-4">
-                    <div class="main-result_img">
-                        <a href="#" class="purchase_service-button">Хочу на массаж!</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <ol class="main-result_list">
-                        <li>Укрепление мышечного каркаса
-                            лица - за счет чего наблюдается
-                            потрясающий эффект лифтинга,
-                            исчезают отеки и мешки под
-                            глазами, подтягивается овал лица.
-                        </li>
-                        <li>Разглаживание мелких морщин,
-                            избавление от брылей.
-                        </li>
-                        <li>Благоприятное воздействие на
-                            состояние всего организма.
-                        </li>
-                        <li>Улучшение общего самочувствия
-                            и настроения.
-                        </li>
-                    </ol>
-                </div>
+                
             </div>
+            
         </div>
-        <div class="main-advantages">
+        
+        <div class="container">
+            <div class="main-advantages">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="main-block_title">Почему именно <span class="main-block_title-black">у нас?</span></h2>
+                    <h2 class="main-block_title">
+                        Почему именно <br>
+                        <span class="main-block_title-black">у нас?</span>
+                    </h2>
                 </div>
                 <div class="col-12">
                     <div class="main-advantages_top_list">
                         <div class="main-advantages_top_item">
-                            <img src="" alt="advantage" class="main-advantages_top_item_img">
+                            <a href="#" class="main-advantages_top_item_icon"></a>
                             <p class="main-advantages_top_item_text">
-                                Наши специалисты
-                                обладают знаниями уникальных
-                                и эффективных техник
+                                Наши специалисты <br>
+                                обладают знаниями уникальных<br>
+                                и эффективных техник<br>
                                 буккального массажа
                             </p>
                         </div>
                         <div class="main-advantages_top_item">
-                            <img src="" alt="advantage" class="main-advantages_top_item_img">
+                            <a href="#" class="main-advantages_top_item_icon"></a>
                             <p class="main-advantages_top_item_text">
-                                Мы гарантируем
-                                видимый результат
+                                Мы гарантируем<br>
+                                видимый результат<br>
                                 в короткие сроки
                             </p>
                         </div>
                         <div class="main-advantages_top_item">
-                            <img src="" alt="advantage" class="main-advantages_top_item_img">
+                            <a href="#" class="main-advantages_top_item_icon"></a>
                             <p class="main-advantages_top_item_text">
-                                У нас за плечами сотни
-                                успешных процедур,
-                                довольные клиенты
+                                У нас за плечами сотни<br>
+                                успешных процедур,<br>
+                                довольные клиенты<br>
                                 и положительные отзывы
                             </p>
                         </div>
@@ -207,8 +240,11 @@
                 </div>
             </div>
         </div>
+        </div>
+        
         <div class="main-price_bg">
-            <div class="row">
+            <div class="container">
+                <div class="row">
                 <div class="col-12">
                     <h2 class="main-block_title">Цена</h2>
                 </div>
@@ -248,8 +284,12 @@
                     </div>
                 </div>
             </div>
+            </div>
+            
         </div>
-        <div class="main-author">
+        
+        <div class="container">
+            <div class="main-author">
             <div class="row">
                 <div class="col-md-6">
                     <div class="main-author_img-block">
@@ -279,12 +319,16 @@
                         <li class="main-author_item">Более 4-х лет вегетарианка и больше 6 лет не употребляю алкоголь.
                         </li>
                     </ul>
-                    <a href="#" class="purchase_service-button">Хочу на массаж!</a>
+                    <a href="#" class="purchase_service-button purchase_service-button-small">Хочу на массаж!</a>
                 </div>
             </div>
         </div>
+        </div>
+        
+
         <div class="main-reviews_bg">
-            <div class="row">
+            <div class="container">
+                <div class="row">
                 <div class="col-12">
                     <h2 class="main-block_title">Реальные отзывы <span class="main-block_title-black">
                         с нашего инстаграма @sandara.massage03</span> <span class="text-orange main-block_title_little">Нас уже 2 029</span>
@@ -351,20 +395,24 @@
                     <a href="#" class="main-reviews_show-more">Показать другие</a>
                 </div>
             </div>
+            </div>
+            
         </div>
     </main>
+
+<div class="container">
     <footer>
         <div class="row">
             <div class="col-md-2">
                 <img src="" alt="logo" class="footer_logo">
                 <div class="nav footer_nav">
                     <ul>
-                        <li class="nav_item">Массаж</li>
-                        <li class="nav_item">Результат</li>
-                        <li class="nav_item nav_item-active">Преимущества</li>
-                        <li class="nav_item">Цены</li>
-                        <li class="nav_item">Об авторе</li>
-                        <li class="nav_item">Отзывы</li>
+                        <a href="#"><li class="nav_item">Массаж</li></a>
+                        <a href="#"><li class="nav_item">Результат</li></a>
+                        <a href="#"><li class="nav_item nav_item-active">Преимущества</li></a>
+                        <a href="#"><li class="nav_item">Цены</li></a>
+                        <a href="#"><li class="nav_item">Об авторе</li></a>
+                        <a href="#"><li class="nav_item">Отзывы</li></a>
                     </ul>
                 </div>
             </div>
@@ -381,11 +429,11 @@
                     <li class="footer_addresses">Ул. Борсоева 19б (Мэргэн-Батор), 7 этаж</li>
                 </ul>
                 <div class="social">
-                    <a href="#"><img src="" alt="whatsapp"></a>
-                    <a href="#"><img src="" alt="viber"></a>
-                    <a href="#"><img src="" alt="telegram"></a>
-                    <span class="text-orange">Звоните, пишите</span>
-                    <a href="tel:+79085903287" class="tel">+79085903287</a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <span><a href="tel:+79085903287" class="tel">+79085903287</a></span>
                 </div>
                 <p class="copy">
                     &copy; Sandara — студия массажа лица, 2019
